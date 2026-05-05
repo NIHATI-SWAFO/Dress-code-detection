@@ -1,0 +1,24 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+
+# Massive Datasets (DO NOT PUSH - GitHub will reject files >100MB and >1GB total size)
+dataset/
+final datasets/
+
+# Training Logs & Heavy Weights
+# We ignore the heavy results folder because YOLO saves massive .pt files every epoch
+results/
+runs/
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Allow our specific compiled dev model through so the app works on the other device!
+!models/yolo11s_dev_best.pt

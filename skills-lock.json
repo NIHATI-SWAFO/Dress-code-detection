@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "skills": {
+    "paper-context-resolver": {
+      "source": "lllllllama/ai-paper-reproduction-skill",
+      "sourceType": "github",
+      "skillPath": "skills/paper-context-resolver/SKILL.md",
+      "computedHash": "7cd6ee7beb82c14fb227454436f2858fc6af84c2f733978f4a2704bb5748b231"
+    },
+    "python-executor": {
+      "source": "infsh-skills/skills",
+      "sourceType": "github",
+      "skillPath": "tools/utilities/python-executor/SKILL.md",
+      "computedHash": "ac87e82f7c23c0b7af9dd3c12f856c7e26aa175642c6a4a01aec4ac45e5bdb1c"
+    },
+    "systematic-debugging": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/systematic-debugging/SKILL.md",
+      "computedHash": "72e9ab72627e4fd8ed26a582e82309a98ecdc4f6e1c99418430ac05682c9e91d"
+    },
+    "tdd": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/tdd/SKILL.md",
+      "computedHash": "78b31b2120c5fe7aced1cebfd4c7c94acb0037fd4f89c83c67584414aa4173bd"
+    },
+    "webapp-testing": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/webapp-testing/SKILL.md",
+      "computedHash": "3f14af7f5690695209c22fbf8c8d133769a86d64892602c09bb13f135e14e857"
+    }
+  }
+}

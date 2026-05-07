@@ -18,7 +18,7 @@ from detect import assess_compliance, draw_detections, CLASS_NAMES
 # CONFIGURATION
 # ============================================================
 BASE_DIR = Path(__file__).parent.parent
-MODEL_PATH = BASE_DIR / "results" / "enhanced-uwear-dev" / "weights" / "best.pt"
+MODEL_PATH = BASE_DIR / "models" / "yolo11s_dev_best.pt"
 CONFIDENCE_THRESHOLD = 0.35
 
 # Global state for the web controls

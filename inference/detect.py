@@ -39,7 +39,7 @@ except ImportError as e:
 # CONFIGURATION
 # ============================================================
 BASE_DIR = Path(__file__).parent.parent
-DEFAULT_MODEL = BASE_DIR / "results" / "enhanced-uwear-dev" / "weights" / "best.pt"
+DEFAULT_MODEL = BASE_DIR / "models" / "yolo11s_dev_best.pt"
 OUTPUT_DIR = BASE_DIR / "results" / "detections"
 
 CONFIDENCE_THRESHOLD = 0.35
